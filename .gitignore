@@ -1,0 +1,9 @@
+# Ignore the "Engine" parts (we re-install these in the container)
+node_modules/
+
+# Ignore the "Secrets" (Environment variables)
+.env
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
