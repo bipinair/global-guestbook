@@ -1,5 +1,5 @@
 # 1. Start with the "Foundation" (OS + Node)
-FROM node:18-alpine
+FROM node:20-alpine
 
 # 2. Create the "Workshop" folder inside the container
 WORKDIR /app
